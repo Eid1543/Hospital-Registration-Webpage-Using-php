@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> Doctors </title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+      
+<center>
+
+	<H1>Doctors </H1>
+		
+	<h2>Inserting Data: </h2>
+	
+	<form method="post" action="Doctors.con.php">
+		<label >Doctor Name: </label>
+		<input type="text" name="name"><br><br>
+		<label >Doctor SSN: </label>
+		<input type="text" name="ssn"><br><br>
+		<label >Doctor Speciality: </label>
+		<input type="text" name="speciality"><br><br>
+		<label >Department Number: </label>
+		<input type="text" name="Dnumber"><br><br>
+		<input type="submit" value="Insert">
+		</form>
+		
+
+		<h2>Click the button to display the information about the table: </h2>
+		<button onclick="document.location='DoctorInfo.php'" class="button button5" >Dispaly Information</button>
+
+		<br>
+		<br>
+		<br>
+		<button onclick="document.location='index.html'" class="button button5" >BACK TO HOMEPAGE </button>
+</center>
+</body>
+</html>
